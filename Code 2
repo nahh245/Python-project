@@ -1,0 +1,64 @@
+code 2 readme
+
+for the string manipulation methods str.capitalize(), str.swapcase(), and str.find() in Python.
+
+# String Manipulation Methods in Python
+
+This repository provides an overview and examples of commonly used Python string methods: str.capitalize(), str.swapcase(), and str.find(). These methods are part of the Python str class and are essential for manipulating string data.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [str.capitalize()](#strcapitalize)
+  - [str.swapcase()](#strswapcase)
+  - [str.find()](#strfind)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+## Usage
+
+### str.capitalize()
+
+- Description: Capitalizes the first character of the string and converts all other characters to lowercase.
+- Syntax: string.capitalize()
+- Returns: A new string with the first character in uppercase and the rest in lowercase.
+
+### Example
+`python
+original_string = "hello world!"
+capitalized_string = original_string.capitalize()
+print(capitalized_string)  # Output: Hello world!
+str.swapcase()
+Description: Swaps the case of each character in the string (uppercase to lowercase and vice versa).
+Syntax: string.swapcase()
+Returns: A new string with the case of each character swapped.
+Example
+python
+
+
+original_string = "Hello World!"
+swapped_case_string = original_string.swapcase()
+print(swapped_case_string)  # Output: hELLO wORLD!
+str.find()
+Description: Searches the string for a specified substring and returns the lowest index of the substring if found. Returns -1 if not found.
+Syntax: string.find(substring)
+Returns: The lowest index of the substring or -1 if the substring is not found.
+Example
+python
+
+
+original_string = "Hello World!"
+index = original_string.find("World")
+print(index)  # Output: 6
+
+# Example of not finding a substring
+not_found_index = original_string.find("Python")
+print(not_found_index)  # Output: -1
+Examples
+The code examples for each method are provided above for your reference. Feel free to run them in any Python environment.
+
+Contributing
+If you would like to contribute to this repository, feel free to submit a pull request or open an issue for any suggestions or improvements.
