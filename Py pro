@@ -1,0 +1,72 @@
+code 3 readme 
+
+for the string manipulation methods str.index(), str.startswith(), and str.endswith() in Python.
+
+
+# String Manipulation Methods in Python
+
+This repository provides an overview and examples of commonly used Python string methods: str.index(), str.startswith(), and str.endswith(). These methods are part of the Python str class and are essential for handling string data.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [str.index()](#strindex)
+  - [str.startswith()](#strstartswith)
+  - [str.endswith()](#strendswith)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Usage
+
+### str.index()
+
+- Description: Searches the string for a specified substring and returns the lowest index of the substring if found. Raises a ValueError if the substring is not found.
+- Syntax: string.index(substring)
+- Returns: The lowest index of the substring.
+
+### Example
+`python
+original_string = "Hello World!"
+index = original_string.index("World")
+print(index)  # Output: 6
+
+# Example of not finding a substring
+try:
+    not_found_index = original_string.index("Python")
+except ValueError as e:
+    print(e)  # Output: substring not found
+str.startswith()
+Description: Checks if the string starts with a specified substring. Returns True if it does, otherwise returns False.
+Syntax: string.startswith(substring)
+Returns: True or False.
+Example
+python
+
+
+original_string = "Hello World!"
+starts_with_hello = original_string.startswith("Hello")
+print(starts_with_hello)  # Output: True
+
+starts_with_python = original_string.startswith("Python")
+print(starts_with_python)  # Output: False
+str.endswith()
+Description: Checks if the string ends with a specified substring. Returns True if it does, otherwise returns False.
+Syntax: string.endswith(substring)
+Returns: True or False.
+Example
+python
+
+
+original_string = "Hello World!"
+ends_with_world = original_string.endswith("World!")
+print(ends_with_world)  # Output: True
+
+ends_with_python = original_string.endswith("Python")
+print(ends_with_python)  # Output: False
+Examples
+The code examples for each method are provided above for your reference. Feel free to run them in any Python environment.
+
+Contributing
+If you would like to contribute to this repository, please submit a pull request or open an issue for any suggestions or improvement.
