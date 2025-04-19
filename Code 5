@@ -1,0 +1,65 @@
+code 5 read me
+
+for the string manipulation methods str.lstrip(), str.rstrip(), and str.split() in Python.
+
+
+# String Manipulation Methods in Python
+
+This repository provides an overview and examples of commonly used Python string methods: str.lstrip(), str.rstrip(), and str.split(). These methods are part of the Python str class and are useful for handling and manipulating string data effectively.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [str.lstrip()](#strlstrip)
+  - [str.rstrip()](#strrstrip)
+  - [str.split()](#strsplit)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+## Usage
+
+### str.lstrip()
+
+- Description: Removes leading whitespace or specified characters from the left side of the string.
+- Syntax: string.lstrip([chars])
+  - chars (optional): A string of characters to be removed. If not provided, it removes leading whitespace.
+- Returns: A new string with leading characters removed.
+
+### Example
+`python
+original_string = "   Hello World!   "
+left_stripped_string = original_string.lstrip()
+print(left_stripped_string)  # Output: "Hello World!   "
+str.rstrip()
+Description: Removes trailing whitespace or specified characters from the right side of the string.
+Syntax: string.rstrip([chars])
+chars (optional): A string of characters to be removed. If not provided, it removes trailing whitespace.
+Returns: A new string with trailing characters removed.
+Example
+python
+
+
+original_string = "   Hello World!   "
+right_stripped_string = original_string.rstrip()
+print(right_stripped_string)  # Output: "   Hello World!"
+str.split()
+Description: Splits the string into a list of substrings based on a specified delimiter. Defaults to whitespace.
+Syntax: string.split(sep=None, maxsplit=-1)
+sep (optional): The delimiter on which to split the string. If not provided, any whitespace is used.
+maxsplit (optional): Maximum number of splits to perform. If not provided, there is no limit.
+Returns: A list of substrings.
+Example
+python
+
+
+original_string = "Hello World! Welcome to Python."
+split_string = original_string.split()
+print(split_string)  # Output: ['Hello', 'World!', 'Welcome', 'to', 'Python.']
+Examples
+The code examples for each method are provided above for your reference. Feel free to run them in your Python environment to see how they work.
+
+Contributing
+If you would like to contribute to this repository, please submit a pull request or open an issue for any suggestions or improvements.
