@@ -1,0 +1,68 @@
+code 7 read me
+
+for the string manipulation methods str.isalnum(), str.isspace(), and str.format() in Python.
+
+
+# String Manipulation Methods in Python
+
+This repository provides an overview and examples of commonly used Python string methods: str.isalnum(), str.isspace(), and str.format(). These methods are part of the Python str class and are useful for handling, validating, and formatting string data effectively.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [str.isalnum()](#strisalnum)
+  - [str.isspace()](#strisspace)
+  - [str.format()](#strformat)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+## Usage
+
+### str.isalnum()
+
+- Description: Checks if all characters in the string are alphanumeric (letters and numbers).
+- Syntax: string.isalnum()
+- Returns: True if all characters are alphanumeric and there is at least one character; otherwise, False.
+
+### Example
+`python
+alphanumeric_string = "Hello123"
+print(alphanumeric_string.isalnum())  # Output: True
+
+string_with_space = "Hello 123"
+print(string_with_space.isalnum())  # Output: False
+str.isspace()
+Description: Checks if all characters in the string are whitespace characters.
+Syntax: string.isspace()
+Returns: True if all characters are whitespace and not empty; otherwise, False.
+Example
+python
+
+
+whitespace_string = "   "
+print(whitespace_string.isspace())  # Output: True
+
+mixed_string = "Hello World"
+print(mixed_string.isspace())  # Output: False
+str.format()
+Description: Formats a string using placeholders defined within the string.
+Syntax: string.format(*args, **kwargs)
+*args: Positional arguments to format into the string.
+**kwargs: Keyword arguments to format into the string.
+Returns: A new formatted string.
+Example
+python
+
+
+name = "Alice"
+age = 30
+formatted_string = "My name is {} and I am {} years old.".format(name, age)
+print(formatted_string)  # Output: "My name is Alice and I am 30 years old."
+Examples
+The code examples for each method are provided above for your reference. Feel free to experiment with them in your Python environment to see how they work.
+
+Contributing
+If you would like to contribute to this repository, please submit a pull request or open an issue for any suggestions or improvements.
