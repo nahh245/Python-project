@@ -1,0 +1,57 @@
+code 9 readme
+
+for the string manipulation methods str.islower() and str.isupper() in Python.
+
+
+# String Case Checking Methods in Python
+
+This repository provides an overview and examples of commonly used Python string methods: str.islower() and str.isupper(). These methods are part of the Python str class and are useful for checking the case of characters in strings.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [str.islower()](#strislower)
+  - [str.isupper()](#strisupper)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+## Usage
+
+### str.islower()
+
+- Description: Checks if all characters in the string are lowercase. Returns True if all characters are lowercase and there is at least one character; otherwise, it returns False.
+- Syntax: string.islower()
+
+### Example
+`python
+lowercase_string = "hello world"
+print(lowercase_string.islower())  # Output: True
+
+mixed_case_string = "Hello World"
+print(mixed_case_string.islower())  # Output: False
+
+string_with_numbers = "abc123"
+print(string_with_numbers.islower())  # Output: True
+str.isupper()
+Description: Checks if all characters in the string are uppercase. Returns True if all characters are uppercase and there is at least one character; otherwise, it returns False.
+Syntax: string.isupper()
+Example
+python
+
+
+uppercase_string = "HELLO WORLD"
+print(uppercase_string.isupper())  # Output: True
+
+mixed_case_string = "Hello World"
+print(mixed_case_string.isupper())  # Output: False
+
+string_with_numbers = "ABC123"
+print(string_with_numbers.isupper())  # Output: True
+Examples
+The code examples for each method are provided above for your reference. 
+
+Contributing
+If you would like to contribute to this repository, please submit a pull request or open an issue for any suggestions or improvements.
