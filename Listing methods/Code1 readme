@@ -1,0 +1,58 @@
+Python List Methods Demonstration
+
+This project provides a basic Python script showcasing how to use some fundamental list methods: append(), clear(), and copy().
+
+The script is intended for beginners who want to understand how these list methods work in Python through simple examples.
+
+Methods Covered
+
+1. append()
+
+Adds a single element to the end of the list.
+
+Example:
+
+people = ['bush', 'obama', 'trump']
+people.append('biden')
+print(people)  # Output: ['bush', 'obama', 'trump', 'biden']
+
+
+
+2. clear()
+
+Removes all elements from the list.
+
+Example:
+
+people = ['elon', 'jeff', 'mark']
+people.clear()
+print(people)  # Output: []
+
+
+
+3. copy()
+
+Returns a shallow copy of the list.
+
+Example:
+
+people = ['drake', 'c.brown', 'beyonce']
+copy_people = people.copy()
+print(people)       # Output: ['drake', 'c.brown', 'beyonce']
+print(copy_people)  # Output: ['drake', 'c.brown', 'beyonce']
+
+
+python "code 1.py"
+
+You will see printed outputs demonstrating how each list method works.
+
+Project Structure
+
+list-methods-demo/
+-code 1.py
+-README.md
+
+Notes
+
+The examples use Python's type hints (list[str]) for better readability and static analysis.
+
