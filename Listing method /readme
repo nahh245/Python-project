@@ -44,6 +44,39 @@ print(copy_people)  # Output: ['drake', 'c.brown', 'beyonce']
 
 python "code 1.py"
 
+4. count()
+
+people: list[str] = ['bush', 'obama', 'obama', 'trump']
+bush = people.count('obama')
+print(bush)
+
+What it does: Counts the number of times 'obama' appears in the people list.
+
+Output: 2
+
+
+5. extend()
+
+people: list[str] = ['elon', 'jeff', 'mark']
+rappers: list[str] = ['wayne', 'tupac']
+
+people.extend(rappers)
+print(people)
+
+What it does: Adds all elements from the rappers list to the end of the people list.
+
+Output: ['elon', 'jeff', 'mark', 'wayne', 'tupac']
+
+
+6. index()
+
+people: list[str] = ['drake', 'c.brown', 'beyonce']
+
+print(people.index('c.brown'))
+
+What it does: Finds the index (position) of 'c.brown' in the people list.
+
+Output: 1
 You will see printed outputs demonstrating how each list method works.
 
 Project Structure
