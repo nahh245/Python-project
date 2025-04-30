@@ -78,7 +78,30 @@ What it does: Finds the index (position) of 'c.brown' in the people list.
 
 Output: 1
 You will see printed outputs demonstrating how each list method works.
+7. Insert Element into a List
 
+Adds an element at a specific index using insert().
+
+people: list[str] = ['bush', 'obama', 'trump']
+people.insert(1, 'biden')
+print(people)  # Output: ['bush', 'biden', 'obama', 'trump']
+
+8. Pop Element from a List
+
+Removes and returns an element at a specific index using pop().
+
+people: list[str] = ['elon', 'jeff', 'mark']
+popped = people.pop(0)
+print(popped)  # Output: elon
+print(people)  # Output: ['jeff', 'mark']
+
+9. Remove Element by Value
+
+Removes the first matching element by value using remove().
+
+people: list[str] = ['drake', 'c.brown', 'beyonce']
+people.remove('c.brown')
+print(people)  # Output: ['drake', 'beyonce']
 Project Structure
 
 list-methods-demo/
