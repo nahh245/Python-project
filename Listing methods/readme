@@ -100,10 +100,44 @@ print(people)  # Output: ['jeff', 'mark']
 Removes the first matching element by value using remove().
 
 people: list[str] = ['drake', 'c.brown', 'beyonce']
+
 people.remove('c.brown')
 print(people)  # Output: ['drake', 'beyonce']
 Project Structure
 
+10. reverse()
+
+The reverse() method is used to reverse the elements of a list in place. This means that the original list is modified, and no new list is created.
+
+
+list.reverse()
+
+
+Example 
+
+people = ['bush', 'obama', 'trump']
+people.reverse()
+print(people)  # Output: ['trump', 'obama', 'bush']
+
+
+In this example, the original list people is reversed, changing its order from ['bush', 'obama', 'trump'] to ['trump', 'obama', 'bush'].
+
+11. sort()
+
+The sort() method sorts the elements of a list in ascending order by default. Like reverse(), this method modifies the original list in place.
+
+
+list.sort()
+
+
+Example
+
+people = ['TRUMP', 'VANCE', 'MIKE', 'MARCO']
+people.sort()
+print(people)  # Output: ['MARCO', 'MIKE', 'TRUMP', 'VANCE']
+
+
+In this example, the list people is sorted alphabetically, resulting in the order ['MARCO', 'MIKE', 'TRUMP', 'VANCE'].
 list-methods-demo/
 -code 1.py
 -README.md
