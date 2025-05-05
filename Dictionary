@@ -1,0 +1,81 @@
+What is a Dictionary in Python?
+
+A dictionary is a built-in data structure in Python that allows you to store data in the form of key-value pairs. 
+# Python Dictionary Operations Script
+
+This script demonstrates three fundamental operations on Python dictionaries: fetching values, fetching keys, and removing a key-value pair using the pop() method.
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Usage](#usage)
+3. [Code Explanation](#code-explanation)
+4. [Output](#output)
+
+
+---
+
+## Overview
+
+The script is divided into three sections:
+
+1. Values: Demonstrates how to retrieve all the values in a dictionary using the values() method.
+2. Keys: Demonstrates how to retrieve all the keys in a dictionary using the keys() method.
+3. Pop: Demonstrates how to remove a key-value pair using the pop() method and print the remaining dictionary.
+
+---
+
+
+## Usage
+
+1. Save the script as code1.py.
+2. Run the script in a Python environment or terminal:
+
+
+---
+
+## Code Explanation
+
+### 1. Values
+
+python
+
+users: dict = {0: 'michel', 1: 'denzel', 2: 'tom'}
+print(users.values())  # To print all values
+
+- A dictionary named users is created.
+- The values() method is used to fetch and print all the values in the dictionary.
+
+### 2. Keys
+
+python
+
+users: dict = {0: 'morgan', 1: 'brad', 2: 'leonardo'}
+print(users.keys())   # To print all keys
+- A dictionary named `users` is created.
+- The `keys()` method is used to fetch and print all the keys in the dictionary.
+
+### 3. Pop
+
+python
+
+users: dict = {0: 'jack', 1: 'matt', 2: 'kate'}
+print(users.pop(2))   # Remove and return the item with key 2
+print(users)          # Print the remaining dictionary
+
+- A dictionary named `users` is created.
+- The `pop()` method is used to remove the key-value pair with key `2` and print the removed value.
+- The remaining dictionary is printed to show the updated state.
+
+---
+
+## Output
+
+When you run the script, the expected output is:
+
+
+plaintext
+dict_values(['michel', 'denzel', 'tom'])
+dict_keys([0, 1, 2])
+kate
+{0: 'jack', 1: 'matt'}
+---
